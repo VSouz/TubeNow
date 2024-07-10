@@ -1,5 +1,9 @@
-from app import app
+from flask import Flask
+from app import app, routes
 import os
+
+app = Flask(__name__)
+
 
 if __name__ == '__main__':
     port = int(os.getenv('PORT'), '5000')
