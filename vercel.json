@@ -11,7 +11,7 @@
             "src": "/(.*)",
             "dest": "/ytsave.py",
             "config": {
-                "pythonVersion": "3.8"
+                "pythonVersion": "3.7.7"
             }
         }
     ]
