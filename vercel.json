@@ -9,10 +9,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/ytsave.py",
-            "config": {
-                "runtime": "python3.7.7"
-            }
+            "dest": "/ytsave.py"
         }
     ]
 }
