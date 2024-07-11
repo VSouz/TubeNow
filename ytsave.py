@@ -1,5 +1,4 @@
-from flask import Flask
-from app import app, routes
+from api import app, routes
 import os
 
 if __name__ == 'main':
